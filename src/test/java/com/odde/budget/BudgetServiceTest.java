@@ -27,7 +27,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 30
@@ -50,7 +50,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 2
@@ -73,7 +73,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 2
@@ -96,7 +96,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 2
@@ -119,7 +119,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 0
@@ -142,7 +142,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 0
@@ -165,7 +165,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 1
@@ -188,7 +188,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 1
@@ -211,7 +211,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 1
@@ -234,7 +234,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 0
@@ -261,7 +261,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 60
@@ -288,7 +288,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 45
@@ -315,7 +315,7 @@ class BudgetServiceTest {
         BudgetRepo budgetRepo = new BudgetRepoImpl(allBudget);
         BudgetService budgetService = new BudgetService(budgetRepo);
         System.out.println(startQueryDate);
-        int budgetAmount = budgetService.queryBudget(startQueryDate, endQueryDate);
+        int budgetAmount = budgetService.queryBudget(new TimePeriod(startQueryDate, endQueryDate));
         System.out.println(budgetAmount);
 
         // Then return 30
